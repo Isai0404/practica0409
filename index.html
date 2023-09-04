@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Formularios</H1>
+    <form action="" method="post">
+        <div>
+            <label for="nom">Nombre:</label>
+            <input type="text" name="nombre" id="nom">
+        </div>
+        <div></div>
+            <label for="col">Color favorito</label>
+            <input type="color" name="color" id="col">
+        </div>
+        <div>
+            <label for="Fech">fecha Nacimiento</label>
+            <input type="date" name="fecha" id="Fech">
+        </div>
+        <div>
+            <label for="pas">Contraseña</label>
+            <input type="password" name="clave" id="pas">
+        </div>
+        <div>
+            <label for="rang">Semestre</label>
+            <input type="range" min="1" max="9" name="rango" id="rang">
+        </div>
+        <div>
+            <label for="comentario">blalba</label>
+            <textarea name="texto" id="comentario" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="curriculum">curriculum</label>
+            <input type="file" name="curric" id="curriculum">
+        </div>
+        <div>
+            <label for="cur">Curso:</label>
+            <select name="curso" id="cur">
+                <option value="1">pythom</option>
+                <option value="2">C#</option>
+                <option value="3">Cobol</option>
+            </select>
+        </div>
+        <div>
+            <label for="cursos">cursos</label>
+            <select name="curso" id="cur" multiple>
+                <option value="1">pythom</option>
+                <option value="2">C#</option>
+                <option value="3">Cobol</option>
+            </select>
+        </div>
+        <div>
+            <label for="opcion">Optgup</label>
+            <select name="curso" id="cur">
+                <optgroup label="Linea">
+                    <option value="1">pythom</option>
+                </optgroup>
+                <optgroup label="Presencial">
+                    <option value="2">C#</option>
+                    <option value="3">Cobol</option>
+                </optgroup>
+            </select>
+        </div>
+        <input type="button" value="guardar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <button>Enviar</button>
+        <a href="#">Enviar</a>
+    </form>
+</body>
+</html>
